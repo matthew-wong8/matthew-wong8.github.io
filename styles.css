@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;;
     font-family: 'Kumbh Sans', sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 
 }
 
@@ -216,8 +216,8 @@
 }
 
 #main__img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
 }
 
 /* MAIN mobile */
@@ -328,13 +328,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
 .about__container .who__container .who-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 300px;
+    margin-left: 500px;
     padding: 10px 0;
 }
 
@@ -353,14 +353,14 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 200px;
+    margin-left: 400px;
 
 }
 
 .about__container .currently__container .currently-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 300px;
+    margin-left: 500px;
     padding: 10px 0;
 
 
@@ -375,14 +375,14 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 200px;
+    margin-left: 400px;
 
 }
 
 .about__container .interests__container .interests-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 300px;
+    margin-left: 500px;
     padding: 10px 0;
 
 
@@ -397,14 +397,14 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 200px;
+    margin-left: 400px;
 
 }
 
 .about__container .reads__container .reads-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 300px;
+    margin-left: 500px;
     padding: 10px 0;
 
 }
@@ -609,6 +609,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    left: 50px;
 }
 
 .experience__container .experience__cards .experience__inner-card{
@@ -628,7 +629,6 @@
 
 .experience__container .experience__cards .experience__inner-card.active{
     box-shadow: 0 10px 30px rgba(0,0,0,.5);
-    cursor: pointer;
 }
 
 .experience__container .experience__cards .experience__inner-card .experience-name{
@@ -636,7 +636,6 @@
     filter: grayscale(1);
     transition: .5s;
     transform: scale(0.8);
-    cursor: pointer;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 00%, #ffb199 100%);
     background-size: 100%;
@@ -853,9 +852,11 @@
 .thoughts__content{
     position: relative;
     width: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: right;
-    margin-left: auto;
+    /* margin-left: auto; */
+    left: 50px;
+    text-orientation:sideways-right;
     
 }
 
