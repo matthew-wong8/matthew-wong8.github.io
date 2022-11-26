@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;;
     font-family: 'Kumbh Sans', sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 
 }
 
@@ -29,8 +29,8 @@
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    width: 100%;
-    max-width: 1300px;
+    width:100%;
+    max-width:1300px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -107,7 +107,7 @@
     }
 
     .navbar__menu.active {
-        background: #141414;
+        background: #F8F8FF;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -316,7 +316,7 @@
 }
 
 .about__container {
-    width: 90%;
+    width: 50%;
 }
 
 .about__container .who__container .who-header {
@@ -328,13 +328,12 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 400px;
 }
 
 .about__container .who__container .who-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 500px;
+    margin-left: 75px;
     padding: 10px 0;
 }
 
@@ -353,14 +352,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 400px;
 
 }
 
 .about__container .currently__container .currently-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 500px;
+    margin-left: 75px;
     padding: 10px 0;
 
 
@@ -375,14 +373,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 400px;
 
 }
 
 .about__container .interests__container .interests-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 500px;
+    margin-left: 75px;
     padding: 10px 0;
 
 
@@ -397,14 +394,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.5rem;
-    margin-left: 400px;
 
 }
 
 .about__container .reads__container .reads-desc {
     color: #141414;
     font-size: 1.2rem;
-    margin-left: 500px;
+    margin-left: 75px;
     padding: 10px 0;
 
 }
@@ -419,7 +415,7 @@
     .about__container .who__container{
         width: 100%;
         position: relative;
-        right: 75px;
+        /* right: 75px; */
 
     }
 
@@ -440,7 +436,7 @@
     .about__container .currently__container{
         width: 100%;
         position: relative;
-        right: 75px;
+        /* right: 75px; */
     }
 
     .about__container .currently__container .currently-header {
@@ -454,7 +450,7 @@
     .about__container .interests__container{
         width: 100%;
         position: relative;
-        right: 75px;
+        /* right: 75px; */
     }
 
     .about__container .interests__container .interests-header {
@@ -468,7 +464,7 @@
     .about__container .reads__container{
         width: 100%;
         position: relative;
-        right: 75px;
+        /* right: 75px; */
     }
 
     .about__container .reads__container .reads-header {
@@ -506,12 +502,15 @@
 
     .about__container .who__container .who-desc{
         font-size: 1rem;
-        margin-left: 150px;
+        position: relative;
+        right: 25px;
 
     }
 
     .about__container .who__container .who-desc .minor{
         font-size: 1rem;
+        position: relative;
+        right: 25px;
     }
 
     .about__container .currently__container{
@@ -526,8 +525,8 @@
 
     .about__container .currently__container .currently-desc{
         font-size: 1rem;
-        margin-left: 150px;
-
+        position: relative;
+        right: 25px;
     }
 
     .about__container .interests__container{
@@ -542,8 +541,8 @@
 
     .about__container .interests__container .interests-desc{
         font-size: 1rem;
-        margin-left: 150px;
-
+        position: relative;
+        right: 25px;
     }
 
     .about__container .reads__container{
@@ -558,8 +557,8 @@
 
     .about__container .reads__container .reads-desc{
         font-size: 1rem;
-        margin-left: 150px;
-
+        position: relative;
+        right: 25px;
     }
 }
 
@@ -712,18 +711,24 @@
 
 
     .experience__content .experience__inner-content{
-        padding-right: 5px;
+        padding-right: 25px;
         height: 100%;
     }
     .experience__content .experience__inner-content .experience__text .experience-header{
         font-weight: bold;
         font-size: 4.5vw;
         margin-bottom: 10px;
+        position: relative;
+        bottom: 20px;
+        left:15px;
 
     }
 
     .experience__content .experience__inner-content .experience__text .experience-desc{
         font-size: 3vw;
+        position: relative;
+        bottom: 20px;
+        left: 15px;
     }
 }
 
@@ -739,6 +744,8 @@
     }
     .experience__container .experience__cards{
         width: 45%;
+
+        padding-right: 15px;
     }
 
     .experience__container .experience__cards .experience__inner-card .experience-name{
@@ -753,10 +760,16 @@
     .experience__content .experience__inner-content .experience__text .experience-header{
         font-weight: bold;
         font-size: 4.5vw;
+        position: relative;
+        bottom: 50px;
+        left: 14px;
     }
 
     .experience__content .experience__inner-content .experience__text .experience-desc{
         font-size: 3vw;
+        position: relative;
+        bottom: 50px;
+        left: 14px;
     }
 }
 
@@ -974,11 +987,16 @@
     .thoughts__content .thoughts__inner-content .thoughts__text .thoughts-header{
         font-weight: bold;
         font-size: 4vw;
-        margin-bottom: 10px;
+        position: relative;
+        bottom: 85px;
+        right: 50px;
     }
 
     .thoughts__content .thoughts__inner-content .thoughts__text .thoughts-desc{
         font-size: 3vw;
+        position: relative;
+        bottom: 85px;
+        right: 50px;
     }
 }
 
@@ -1009,10 +1027,16 @@
     .thoughts__content .thoughts__inner-content .thoughts__text .thoughts-header{
         font-weight: bold;
         font-size: 4.5vw;
+        position: relative;
+        bottom: 85px;
+        right: 50px;
     }
 
     .thoughts__content .thoughts__inner-content .thoughts__text .thoughts-desc{
         font-size: 3vw;
+        position: relative;
+        bottom: 85px;
+        right: 50px;
     }
 
     .thoughts__btn {
