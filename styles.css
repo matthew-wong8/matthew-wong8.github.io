@@ -7,6 +7,9 @@
 
     }
     
+
+    /* Navbar CSS */
+
     .navbar {
     background:#F8F8FF;
     height:80px;
@@ -168,6 +171,9 @@
     }
     }
     
+
+    /* Main CSS */
+
     .main {
     background-color:#F8F8FF
     }
@@ -286,6 +292,9 @@
     color:gray
     }
     }
+
+
+    /* About CSS */
     
     .about {
     background:#F8F8FF;
@@ -554,6 +563,77 @@
     width:100%
     }
     }
+
+
+    /* Projects CSS */
+
+    .projects {
+        background:#F8F8FF;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        height:auto;
+        padding-top:90px;
+        padding-bottom:125px
+        }
+        
+    .projects-head {
+        margin-bottom:1%;
+        font-size:3.5rem;
+        background-color:#ff8177;
+        background-image:linear-gradient(to top,#ff0844 00%,#ffb199 100%);
+        background-size:100%;
+        -webkit-background-clip:text;
+        -moz-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent
+        }
+
+    .projects-subhead {
+        margin-bottom:5%;
+        font-size:1.2rem
+        }
+
+    .projects_cards {
+        flex-direction: row;
+        padding-left: 25px;
+        }
+          
+    .projects__item {
+        background: var(--clr-accent);
+        overflow: hidden;
+        padding-left: 15px;
+        }
+          
+    .projects__img{
+        width: 400px;
+        height: 300px;
+        padding-left: 40px;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+        
+          
+    .projects__item:focus {
+        position:relative;
+        z-index: 2;
+        }
+          
+
+
+    @media screen and (max-width: 768px) {
+        .about__container {
+        flex-wrap:wrap
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .about-head {
+        font-size:2.5rem
+        }
+    }
+
+    /* Experience CSS  */
     
     .experience {
     background:#F8F8FF;
@@ -757,6 +837,10 @@
     }
     }
     
+
+
+    /* Thoughts CSS */
+
     .thoughts {
     background:#F8F8FF;
     display:flex;
