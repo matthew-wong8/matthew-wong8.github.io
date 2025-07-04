@@ -7,306 +7,250 @@
     <title>Matthew Wong</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/bcb96cfddf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-
 </head>
 
 <body>
     <!-- Navbar section -->
-    <article>
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="index.html" id="navbar__logo"><i class="fa-solid fa-m"></i><i class="fa-solid fa-w"></i></a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="index.html" class="navbar__links">
-                            Home
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#about-section" class="navbar__links">
-                            About
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#projects-section" class="navbar__links">
-                            Projects
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#experience-section" class="navbar__links">
-                            Experience
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#thoughts-section" class="navbar__links">
-                            Writing
-                        </a>
-                    </li>
-                    <li class="navbar__btn">
-                        <a href="files/WongMatthew_Resume.pdf" class="navbar__links">
-                            Resume
-                        </a>
-                    </li>
-                        </a>
-                    </li>
-                </ul>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">
+                <i class="fa-solid fa-m"></i><i class="fa-solid fa-w"></i>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </nav>
-    </article>
-    
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about-section" class="navbar__links">About</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="#experience-section" class="navbar__links">Experience</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#thoughts-section" class="navbar__links">Writing</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="files/WongMatthew_Resume.pdf" class="navbar__links">Resume</a>
+                </li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </div>
+    </nav>
 
     <!-- Main Section -->
     <div class="main">
         <div class="main__container">
-            <div class="main__img--container">
-                <img src="images/new_headshot.png" alt="pic" id="main__img">
-            </div>
             <div class="main__content">
-                    <h1>Hi, I'm Matt!</h1>
-                    <h2>Cornell Computer & Information Science Grad</span></h2>
-                    <p>exploring | building | growing</p>
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm Matt!</h1>
+                    <h2 class="hero-subtitle">Product Manager at Dstillery on the AI Internal Tools team, based in NYC</h2>
+                    <p class="hero-tagline">Previously studied Computer and Information Science at Cornell</p>
+                    <div class="hero-cta">
+                        <a href="#about-section" class="cta-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
+            <div class="main__img--container">
+                <div class="hero-image-wrapper">
+                    <img src="images/headshot3-min.JPG" alt="Matthew Wong" id="main__img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
         </div>
     </div>
 
-
-
     <!-- About Me Section -->
     <div class="about" id="about-section">
-        <h1 class="about-head">About Me</h1>
+        <div class="section-header">
+            <h1 class="section-title">About Me</h1>
+            <div class="section-line"></div>
+        </div>
         <div class="about__container">
-            <div class="who__container">
-                <div class="who-header">
-                    <h2>Who:</h2>
+
+            <div class="about-card">
+                <div class="about-card-header">
+                    <h2><i class="fa-solid fa-clock"></i> Currently</h2>
                 </div>
-                <div class="who-desc">
-                    <p><i class="fa-solid fa-arrow-right"></i> Cornell University graduate from Long Island, NY</p>
-                    <p><i class="fa-solid fa-arrow-right"></i> Major: Computer & Information Science 
-                        (Data Science & UX concentrations)</p>
-                    <p class="minor">Minor: Dyson Business Minor for Engineers (Entrepreneuership concentration)</p>
-                    <p><i class="fa-solid fa-arrow-right"></i> Passionate about creating products that have a positive impact on others</p>
+                <div class="about-card-content">
+                    <p><i class="fa-solid fa-arrow-right"></i> AI Product Manager at Dstillery</p>
+                    <p><i class="fa-solid fa-arrow-right"></i> Research Fellow @ Contrary</p>
                 </div>
             </div>
-            <div class="currently__container">
-                <div class="currently-header">
-                    <h2>Currently:</h2>
+            <div class="about-card">
+                <div class="about-card-header">
+                    <h2><i class="fa-solid fa-heart"></i> Interests</h2>
                 </div>
-                <div class="currently-desc">
-                    <p><i class="fa-solid fa-arrow-right"></i> PM Intern @ AI Healthcare Startup </p>
-                    <p><i class="fa-solid fa-arrow-right"></i> Research Fellow @ Contrary </p>
-                    <p><i class="fa-solid fa-arrow-right"></i> VC @ Antler </p>
-                </div>
-            </div>
-            <div class="interests__container">
-                <div class="interests-header">
-                    <h2>Interests:</h2>
-                </div>
-                <div class="interests-desc">
-                    <p><i class="fa-solid fa-arrow-right"></i> Writing about startups and life</p>
+                <div class="about-card-content">
                     <p><i class="fa-solid fa-arrow-right"></i> Exploring new countries</p>
+                    <p><i class="fa-solid fa-arrow-right"></i> Eating my way through NYC</p>
                     <p><i class="fa-solid fa-arrow-right"></i> Running a sub 7 minute mile</p>
                 </div>
             </div>
-            <div class="reads__container">
-                <div class="reads-header">
-                    <h2>Favorite Reads:</h2>
+            <div class="about-card">
+                <div class="about-card-header">
+                    <h2><i class="fa-solid fa-book"></i> Favorite Reads</h2>
                 </div>
-                <div class="reads-desc">
-                    <p><i class="fa-solid fa-arrow-right"></i> When Breath Becomes Air - Paul Kalanithi</p>
+                <div class="about-card-content">
+                    <p><i class="fa-solid fa-arrow-right"></i> Transformed - Marty Cagan</p>
                     <p><i class="fa-solid fa-arrow-right"></i> Atomic Habits - James Clear</p>
                     <p><i class="fa-solid fa-arrow-right"></i> Steve Jobs - Walter Isaacson</p>
                 </div>
             </div>
         </div>
     </div>
-        
-<!-- Projects Section -->
-    <div class="projects" id="projects-section">
-        <h1 class="projects-head">Projects</h1>
-        <p class="projects-subhead">Some projects that I've recently completed</p>
-        <div class="projects__container">
-            <div class="projects_cards">
-
-                <a href="files/orie3120_final_report.pdf" class="projects__item">
-                  <img src="images/orie3120_screenshot.png" alt="" class="projects__img">
-                </a>
 
 
-                <a href="https://medium.com/@mattwong8/building-a-website-for-things-to-do-around-washington-d-c-584a0615dd22" class="projects__item">
-                    <img src="images/DC_website_screenshot.png" alt="" class="projects__img">
-                </a>
-
-
-                <a href="https://medium.com/@mattwong8/the-inspiration-journey-of-building-my-website-57050a36b4f" class="projects__item">
-                    <img src="images/website_pic.png" alt="" class="projects__img">
-                </a>
-            </div>
-        </div>
-
-
-    </div>
 
     <!-- Experiences Section -->
     <div class="experience" id="experience-section">
-        <h1 class="experience-head">Experience</h1>
-        <p class="experience-subhead">What I've done in the past and what I'm up to right now</p>
+        <div class="section-header">
+            <h1 class="section-title">Experience</h1>
+            <div class="section-line"></div>
+            <p class="section-subtitle">What I've done recently and what I'm up to right now</p>
+        </div>
         <div class="experience__container">
             <div class="experience__cards">
                 <div class="experience__inner-card active" data-id="experience__content1">
-                    <h2 class="experience-name">Pepper</h2>
+                    <h2 class="experience-name">Dstillery</h2>
                 </div>
                 <div class="experience__inner-card" data-id="experience__content2">
-                    <h2 class="experience-name">Cornell AppDev</h2>
+                    <h2 class="experience-name">Contrary Capital</h2>
                 </div> 
                 <div class="experience__inner-card" data-id="experience__content3">
-                    <h2 class="experience-name">Capital One</h2>
+                    <h2 class="experience-name">Pepper</h2>
                 </div>  
-                <div class="experience__inner-card" data-id="experience__content4">
-                    <h2 class="experience-name">IBM</h2>
-                </div> 
+ 
             </div>
             
             <div class="experience__content">
                 <div class="experience__inner-content active" id="experience__content1">
-                    <div>
-                        <div class="experience__text">
-                            <p class="experience-header">Product Management Intern</p>
-                            <p class="experience-desc">
-                                3rd PM on the team in charge of $3 billion convenience store distribution space expansion. Selected as 1 of 15 Cornell Kessler Fellows.
-                            </p>
-                        </div>
+                    <div class="experience__text">
+                        <p class="experience-header">Product Manager, AI Internal Tools</p>
+                        <p class="experience-date">July 2025 - Present</p>
+                        <p class="experience-desc">
+                            3rd PM on the team, building out Internal Tooling to boost efficiency and productivity of the team.
+                        </p>
                     </div>
                 </div>
                 <div class="experience__inner-content" id="experience__content2">
-                    <div>
-                        <div class="experience__text">
-                            <p class="experience-header">President</p>
-                            <p class="experience-desc">
-                                Leading an amazing team of 50+ developers, designers, and marketers to give back to the Cornell community through AppDev's 3 core values: build & deliver, teach & inspire, and open & share.
-                            </p>
-                        </div>
+                    <div class="experience__text">
+                        <p class="experience-header">Research Fellow</p>
+                        <p class="experience-date">December 2024 - Present</p>
+                        <p class="experience-desc">
+                            Writing about the most impactful private tech companies.<br>
+                            Memos on Armada, Aven, Bubble, AI Agents, and Foundational Models.
+                        </p>
                     </div>
                 </div>
-            
                 <div class="experience__inner-content" id="experience__content3">
-                    <div>
-                        <div class="experience__text">
-                            <p class="experience-header">Product Management Intern</p>
-                            <p class="experience-desc">
-                                Spoke with 15+ stakeholders and created prioritization frameworks for 3 teams. Roadmapped future work for the next year.
-                            </p>
-                        </div>
+                    <div class="experience__text">
+                        <p class="experience-header">Product Management Intern, Convenience Store Distribution</p>
+                        <p class="experience-date">May 2024 - August 2024</p>
+                        <p class="experience-desc">
+                            Revolutionizing the food distribution industry.<br>
+                            Backed by ICONIQ, Greylock, Index, etc.
+                        </p>
                     </div>
                 </div>
-                <div class="experience__inner-content" id="experience__content4">
-                    <div>
-                        <div class="experience__text">
-                            <p class="experience-header">Client Engineering & Technical Sales Intern</p>
-                            <p class="experience-desc">
-                                Managed the end-to-end deployment of IBM Watson chat algorithms for 3 clients, enhancing their user purchase rate by 41%.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>  
         </div>
+        <div class="experience-cta">
+            <a href="files/WongMatthew_Resume.pdf" class="experience__btn" target="_blank">
+                View Resume <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
     </div>
-
-
 
     <!-- Thoughts Section -->
     <div class="thoughts" id="thoughts-section">
-        <h1 class="thoughts-head">Writing</h1>
-        <p class="thoughts-subhead">Click the titles in the boxes on the right to read the full pieces</p>
-        <div class="thoughts__container">
-            <div class="thoughts__cards">
-                <div class="thoughts__inner-card active" data-id="thoughts__content1">
-                    <button class="thoughts-name"><a href="https://medium.com/@mattwong8/1-of-1-my-internship-at-pepper-284b15b7b3e8"><b>Pepper Internship Reflection</b></a></button>
-
-                </div>
-                <div class="thoughts__inner-card" data-id="thoughts__content2">
-                    <button class="thoughts-name"><a href="https://medium.com/@mattwong8/the-a-to-d-path-why-its-the-key-to-sucess-af1bb21244e4"><b>How to Achieve Success</b></a></button>
-
-                </div> 
-                <div class="thoughts__inner-card" data-id="thoughts__content3">
-                    <button class="thoughts-name"><a href="https://medium.com/@mattwong8/an-epilogue-to-my-summer-in-washington-d-c-ff0e7be28451"><b>My Summer in DC</b></a></button>
-                </div>
-                <div class="thoughts__inner-card" data-id="thoughts__content4">
-                    <button class="thoughts-name"><a href="https://medium.com/@mattwong8/finding-fulfillment-29eb558b5633"><b>Finding Fulfillment</b></a></button>
-                </div>    
-            </div>
-            <div class="thoughts__content">
-                <div class="thoughts__inner-content active" id="thoughts__content1">
-                    <div>
-                        <div class="thoughts__text">
-                            <p class="thoughts-header">Interning at a Startup</p>
-                            <p class="thoughts-desc">
-                                Why I think working at a small, scrappy company is more fulfilling than a big tech job.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="thoughts__inner-content" id="thoughts__content2">
-                    <div>
-                        <div class="thoughts__text">
-                            <p class="thoughts-header">What's the Best Way to Make Progress?</p>
-                            <p class="thoughts-desc">
-                                If you can maximize the A to D path then you can make immense progress like no other.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="thoughts__inner-content" id="thoughts__content3">
-                    <div>
-                        <div class="thoughts__text">
-                            <p class="thoughts-header">Living and working in the nation's capital</p>
-                            <p class="thoughts-desc">
-                                How I spent my summer in Washington DC, why I loved it, and why I'll never go back.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="thoughts__inner-content" id="thoughts__content4">
-                    <div>
-                        <div class="thoughts__text">
-                            <p class="thoughts-header">What Makes a Fulfilling College Career?</p>
-                            <p class="thoughts-desc">
-                                Friends, classes, clubs, Greek life, professors? My opinions and advice from graduating seniors
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>  
+        <div class="section-header">
+            <h1 class="section-title">Writing</h1>
+            <div class="section-line"></div>
+            <p class="section-subtitle">My thoughts on startups, personal growth, and life</p>
         </div>
-        <div><button class="thoughts__btn"><a href="https://mattwong8.substack.com/">Read More</a></button></div>
+        <div class="thoughts__container">
+            <div class="thoughts-grid">
+                <a href="https://contraryresearch.substack.com/p/contrary-research-rundown-139" class="thoughts-card" target="_blank">
+                    <div class="thoughts-card-header">
+                        <h3>The Age of AI Agents</h3>
+                        <i class="fas fa-external-link-alt external-icon"></i>
+                    </div>
+                    <p class="thoughts-card-desc">
+                        What are AI Agents and how are they changing the world?
+                    </p>
+                    <div class="thoughts-card-meta">
+                        <span class="thoughts-tag">Startups</span>
+                        <span class="thoughts-tag">AI Tech</span>
+                    </div>
+                </a>
+
+                <a href="https://substack.com/@matthewwong970995/p-156953962" class="thoughts-card" target="_blank">
+                    <div class="thoughts-card-header">
+                        <h3>What it's Like Being a 21 Year Old President</h3>
+                        <i class="fas fa-external-link-alt external-icon"></i>
+                    </div>
+                    <p class="thoughts-card-desc">
+                        My reflection on leading Cornell AppDev, student-run project team that builds products to improve the lives of the community.
+                    </p>
+                    <div class="thoughts-card-meta">
+                        <span class="thoughts-tag">Life</span>
+                        <span class="thoughts-tag">Growth</span>
+                    </div>
+                </a>
+
+                <a href="https://substack.com/@matthewwong970995/p-155486796" class="thoughts-card" target="_blank">
+                    <div class="thoughts-card-header">
+                        <h3>Pepper Internship Reflection</h3>
+                        <i class="fas fa-external-link-alt external-icon"></i>
+                    </div>
+                    <p class="thoughts-card-desc">
+                        Why I think working at a small, scrappy company is more fulfilling than a big tech job.
+                    </p>
+                    <div class="thoughts-card-meta">
+                        <span class="thoughts-tag">Career</span>
+                        <span class="thoughts-tag">Product</span>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <div class="thoughts-cta">
+            <a href="https://mattwong8.substack.com/" class="thoughts__btn" target="_blank">
+                Read More <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
     </div>
 
 
 
-    <!-- Footer Section -->
-    <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__logo">
-                    <a href="/" id="footer__logo"><i class="fa-solid fa-m"></i><i class="fa-solid fa-w"></i></a>
-                </div>
-            </div>
-        </div>
-        <a class="copyright">Matthew Wong   <i class="fa-regular fa-copyright"></i>   2025</a>
-        <div class="social__media">
-            <div class="social__media--wrap">
-                <div style="width:250px; margin:0 auto;" class="social__icons">
+    <!-- Contact Section -->
+    <div class="contact" id="contact-section">
+        <div class="section-header">
+            <h1 class="section-title">Let's Connect</h1>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Always open to new opportunities and interesting conversations.</p>
+            <div class="contact-content">
+                <p>Let's chat about building the future, personal growth, or even your favorite restaurant.</p>
+                <div class="contact-social">
                     <a href="mailto: mcw243@cornell.com" class="social__icon--link" target="_blank">
                         <i class="fa-solid fa-envelope"></i>
+                    </a>
                     <a href="https://www.linkedin.com/in/matthew-c-wong/" class="social__icon--link" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
@@ -315,9 +259,23 @@
                     </a>
                     <a href="https://twitter.com/matt_w0ng" class="social__icon--link" target="_blank">
                         <i class="fab fa-twitter"></i>
-                    </a>    
+                    </a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">
+                    <i class="fa-solid fa-m"></i><i class="fa-solid fa-w"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <p class="copyright">Matthew Wong <i class="fa-regular fa-copyright"></i> 2025</p>
         </div>
     </div>
 
